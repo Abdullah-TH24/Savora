@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/logo.png" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/framework.css" />
+    <link rel="stylesheet" href="./css/master.css" />
+    <title>Order History</title>
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div
+        class="side-bar o-hidden p-relative d-flex txt-c-mobile justify-between"
+      >
+        <div class="logo-links">
+          <img
+            src="./assets/images/logo-name.png"
+            alt=""
+            class="center-flex m-auto d-none-mobile"
+          />
+          <img
+            src="./assets/images/logo.png"
+            alt=""
+            class="mini center-flex m-auto d-none"
+          />
+          <ul class="p-0">
+            <li class="p-relative tt-upper act">
+              <a
+                href="home.html"
+                class="d-block pt-15 pr-20 pb-15 pl-20 c-D47C"
+              >
+                <i class="fa-solid fa-home mr-10"></i>
+                <span class="fs-15 d-none-mobile">Home</span>
+              </a>
+            </li>
+            <li class="p-relative tt-upper">
+              <a
+                href="order.html"
+                class="active d-block pt-15 pr-20 pb-15 pl-20 c-D47C"
+              >
+                <i class="fa-solid fa-clock-rotate-left mr-10"></i>
+                <span class="fs-15 d-none-mobile">ORDER HISTORY</span>
+              </a>
+            </li>
+            <li class="p-relative tt-upper">
+              <a
+                href="messages.html"
+                class="d-block pt-15 pr-20 pb-15 pl-20 c-D47C"
+              >
+                <i class="fa-regular fa-comments mr-10"></i>
+                <span class="fs-15 d-none-mobile">MESSAGES</span>
+              </a>
+            </li>
+            <li class="p-relative tt-upper">
+              <a
+                href="statistics.html"
+                class="d-block pt-15 pr-20 pb-15 pl-20 c-D47C"
+              >
+                <i class="fa-solid fa-arrow-trend-up mr-10"></i>
+                <span class="fs-15 d-none-mobile">STATISTICS</span>
+              </a>
+            </li>
+            <li class="p-relative tt-upper">
+              <a
+                href="products.html"
+                class="d-block pt-15 pr-20 pb-15 pl-20 c-D47C"
+              >
+                <i class="fa-solid fa-utensils mr-10"></i>
+                <span class="fs-15 d-none-mobile">PRODUCTS</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="status p-20">
+          <span class="rad-half mr-5"></span>
+          <span class="c-D47C fs-13 d-none-mobile">Restaurant Open</span>
+        </div>
+      </div>
+      <div class="content p-20 o-hidden">
+        <div class="head d-flex justify-between">
+          <form action="" class="p-relative">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Search"
+              class="transition-300ms-ease rad-10 outline-none pt-10 pr-20 pb-10 bg-transparent border-none"
+            />
+            <i class="fa-solid fa-magnifying-glass p-absolute"></i>
+          </form>
+          <div class="account-notif d-flex gap-30 align-center">
+            <div class="account">
+              <span
+                class="rad-half align-center justify-center c-white fs-15 mr-10 c-pointer"
+                >A</span
+              >
+              <span class="c-D47C d-none-mobile c-pointer"
+                >Admin1_resto <i class="fa-solid fa-chevron-down"></i
+              ></span>
+            </div>
+            <div class="notif p-relative c-pointer">
+              <i class="fa-solid fa-bell fa-fw center-flex c-D47C"></i>
+              <span class="rad-half p-absolute"></span>
+            </div>
+          </div>
+        </div>
+        <div class="order-page">
+          <div class="title d-flex justify-between align-center">
+            <span class="d-block m-0 c-white mt-20 tt-upper"
+              >Order History</span
+            >
+            <a href="#" class="c-D47C rad-6 p-10">
+              <i class="fa-solid fa-sliders mr-5"></i>
+              Filter Order
+            </a>
+          </div>
+          <div class="table mt-20 d-grid txt-c-mobile">
+            <div class="order-column">
+              <div class="col-title c-D47C pt-10 pb-10">
+                <span class="fs-15 d-block">Customer</span>
+              </div>
+              <div class="items">
+                <div class="row mt-10 pb-20">
+                  <span
+                    class="circle rad-half mr-5"
+                    style="background-color: rgba(11, 218, 114, 0.671)"
+                  ></span>
+                  <span class="c-D47C fs-14">Jeremmy Passion</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span
+                    class="circle rad-half mr-5"
+                    style="background-color: pink"
+                  ></span>
+                  <span class="c-D47C fs-14">Mohammad Noor</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span
+                    class="circle rad-half mr-5"
+                    style="background-color: green"
+                  ></span>
+                  <span class="c-D47C fs-14">Abdullah Hamid</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span
+                    class="circle rad-half mr-5"
+                    style="background-color: purple"
+                  ></span>
+                  <span class="c-D47C fs-14">Nour Alsadi</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span
+                    class="circle rad-half mr-5"
+                    style="background-color: orange"
+                  ></span>
+                  <span class="c-D47C fs-14">Omar Awad</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span
+                    class="circle rad-half mr-5"
+                    style="background-color: yellowgreen"
+                  ></span>
+                  <span class="c-D47C fs-14">Mohammad Ward</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span
+                    class="circle rad-half mr-5"
+                    style="background-color: rgba(218, 11, 218, 0.671)"
+                  ></span>
+                  <span class="c-D47C fs-14">Qussi Haji</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span
+                    class="circle rad-half mr-5"
+                    style="background-color: rgba(218, 121, 11, 0.671)"
+                  ></span>
+                  <span class="c-D47C fs-14">Lenol Messi</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span
+                    class="circle rad-half mr-5"
+                    style="background-color: rgba(94, 218, 11, 0.671)"
+                  ></span>
+                  <span class="c-D47C fs-14">Vari Gabi</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span
+                    class="circle rad-half mr-5"
+                    style="background-color: rgba(11, 142, 218, 0.671)"
+                  ></span>
+                  <span class="c-D47C fs-14">Belal Ali</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span
+                    class="circle rad-half mr-5"
+                    style="background-color: rgb(88, 28, 88)"
+                  ></span>
+                  <span class="c-D47C fs-14">Daneel Kareem</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span
+                    class="circle rad-half mr-5"
+                    style="background-color: rgb(121, 84, 17)"
+                  ></span>
+                  <span class="c-D47C fs-14">Tesser Khaled</span>
+                </div>
+              </div>
+            </div>
+            <div class="order-column">
+              <div class="col-title c-D47C pt-10 pb-10">
+                <span class="fs-15 d-block">ID</span>
+              </div>
+              <div class="items">
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">#215</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">#216</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">#217</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">#218</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">#219</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">#220</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">#221</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">#222</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">#223</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">#224</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">#225</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">#226</span>
+                </div>
+              </div>
+            </div>
+            <div class="order-column">
+              <div class="col-title c-D47C pt-10 pb-10">
+                <span class="fs-15 d-block">Menu</span>
+              </div>
+              <div class="items">
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-13 d-block mb-5"
+                    >Loin of Vension (2)</span
+                  >
+                  <span class="c-888 fs-13 d-block">$12.5</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-13 d-block mb-5"
+                    >Loin of Vension (2)</span
+                  >
+                  <span class="c-888 fs-13 d-block">$12.5</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-13 d-block mb-5"
+                    >Loin of Vension (2)</span
+                  >
+                  <span class="c-888 fs-13 d-block">$12.5</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-13 d-block mb-5"
+                    >Loin of Vension (2)</span
+                  >
+                  <span class="c-888 fs-13 d-block">$12.5</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-13 d-block mb-5"
+                    >Loin of Vension (2)</span
+                  >
+                  <span class="c-888 fs-13 d-block">$12.5</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-13 d-block mb-5"
+                    >Loin of Vension (2)</span
+                  >
+                  <span class="c-888 fs-13 d-block">$12.5</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-13 d-block mb-5"
+                    >Loin of Vension (2)</span
+                  >
+                  <span class="c-888 fs-13 d-block">$12.5</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-13 d-block mb-5"
+                    >Loin of Vension (2)</span
+                  >
+                  <span class="c-888 fs-13 d-block">$12.5</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-13 d-block mb-5"
+                    >Loin of Vension (2)</span
+                  >
+                  <span class="c-888 fs-13 d-block">$12.5</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-13 d-block mb-5"
+                    >Loin of Vension (2)</span
+                  >
+                  <span class="c-888 fs-13 d-block">$12.5</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-13 d-block mb-5"
+                    >Loin of Vension (2)</span
+                  >
+                  <span class="c-888 fs-13 d-block">$12.5</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-13 d-block mb-5"
+                    >Loin of Vension (2)</span
+                  >
+                  <span class="c-888 fs-13 d-block">$12.5</span>
+                </div>
+              </div>
+            </div>
+            <div class="order-column">
+              <div class="col-title c-D47C pt-10 pb-10">
+                <span class="fs-15 d-block">Date</span>
+              </div>
+              <div class="items">
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">22 Mei 2021, 12.21 PM</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">22 Mei 2021, 12.21 PM</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">22 Mei 2021, 12.21 PM</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">22 Mei 2021, 12.21 PM</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">22 Mei 2021, 12.21 PM</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">22 Mei 2021, 12.21 PM</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">22 Mei 2021, 12.21 PM</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">22 Mei 2021, 12.21 PM</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">22 Mei 2021, 12.21 PM</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">22 Mei 2021, 12.21 PM</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">22 Mei 2021, 12.21 PM</span>
+                </div>
+                <div class="row mt-10 pb-20">
+                  <span class="c-D47C fs-14">22 Mei 2021, 12.21 PM</span>
+                </div>
+              </div>
+            </div>
+            <div class="order-column">
+              <div class="col-title c-D47C pt-10 pb-10">
+                <span class="fs-15 d-block">Status</span>
+              </div>
+              <div class="items">
+                <div class="row mt-10 pb-20">
+                  <a
+                    href="#"
+                    class="button m-auto-mobile rad-6 bg-transparent tt-upper fs-13 d-block c-D47C pt-5 pr-10 pb-5 pl-10"
+                    >preparing</a
+                  >
+                </div>
+                <div class="row mt-10 pb-20">
+                  <a
+                    href="#"
+                    class="button reject m-auto-mobile rad-6 bg-transparent tt-upper fs-13 d-block c-D47C pt-5 pr-10 pb-5 pl-10"
+                    >rejected</a
+                  >
+                </div>
+                <div class="row mt-10 pb-20">
+                  <a
+                    href="#"
+                    class="button completed m-auto-mobile rad-6 bg-linear tt-upper fs-13 d-block c-D47C pt-5 pr-10 pb-5 pl-10"
+                    >completed</a
+                  >
+                </div>
+                <div class="row mt-10 pb-20">
+                  <a
+                    href="#"
+                    class="button completed m-auto-mobile rad-6 bg-linear tt-upper fs-13 d-block c-D47C pt-5 pr-10 pb-5 pl-10"
+                    >completed</a
+                  >
+                </div>
+                <div class="row mt-10 pb-20">
+                  <a
+                    href="#"
+                    class="button reject m-auto-mobile rad-6 bg-transparent tt-upper fs-13 d-block c-D47C pt-5 pr-10 pb-5 pl-10"
+                    >rejected</a
+                  >
+                </div>
+                <div class="row mt-10 pb-20">
+                  <a
+                    href="#"
+                    class="button reject m-auto-mobile rad-6 bg-transparent tt-upper fs-13 d-block c-D47C pt-5 pr-10 pb-5 pl-10"
+                    >rejected</a
+                  >
+                </div>
+                <div class="row mt-10 pb-20">
+                  <a
+                    href="#"
+                    class="button m-auto-mobile rad-6 bg-transparent tt-upper fs-13 d-block c-D47C pt-5 pr-10 pb-5 pl-10"
+                    >preparing</a
+                  >
+                </div>
+                <div class="row mt-10 pb-20">
+                  <a
+                    href="#"
+                    class="button m-auto-mobile rad-6 bg-transparent tt-upper fs-13 d-block c-D47C pt-5 pr-10 pb-5 pl-10"
+                    >preparing</a
+                  >
+                </div>
+                <div class="row mt-10 pb-20">
+                  <a
+                    href="#"
+                    class="button m-auto-mobile rad-6 bg-transparent tt-upper fs-13 d-block c-D47C pt-5 pr-10 pb-5 pl-10"
+                    >preparing</a
+                  >
+                </div>
+                <div class="row mt-10 pb-20">
+                  <a
+                    href="#"
+                    class="button m-auto-mobile rad-6 bg-transparent tt-upper fs-13 d-block c-D47C pt-5 pr-10 pb-5 pl-10"
+                    >preparing</a
+                  >
+                </div>
+                <div class="row mt-10 pb-20">
+                  <a
+                    href="#"
+                    class="button completed m-auto-mobile rad-6 bg-linear tt-upper fs-13 d-block c-D47C pt-5 pr-10 pb-5 pl-10"
+                    >completed</a
+                  >
+                </div>
+                <div class="row mt-10 pb-20">
+                  <a
+                    href="#"
+                    class="button reject m-auto-mobile rad-6 bg-transparent tt-upper fs-13 d-block c-D47C pt-5 pr-10 pb-5 pl-10"
+                    >rejected</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
