@@ -225,9 +225,6 @@
 .d-block {
   display: block;
 }
-.d-none {
-  display: none;
-}
 /* <Animations> */
 .transition-300ms-ease {
   transition: var(--main-transition) ease;
@@ -278,4 +275,7 @@
   .d-none-mobile {
     display: none;
   }
+}
+.d-none {
+  display: none;
 }
